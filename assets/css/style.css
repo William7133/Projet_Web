@@ -1,0 +1,213 @@
+:root{
+  --color1:orange;
+  --color2:dimgrey;
+  --color3:darkgrey;
+  --color4:darkslategrey;
+  --color5:black;
+}
+
+body{
+  display:flex;
+  flex-direction: column;
+  margin:0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.navbar{
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background:var(--color1);
+  background:var(--color2);
+  background:var(--color3);
+  background:var(--color4);
+  background:var(--color5);
+  transition: all 350ms ease-out;
+  height: 60px;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  height: 100%;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+#section1{
+  background: url('../img/background.png') no-repeat scroll center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.innerBanner{
+  text-align: center;
+  color:white;
+  padding-top: 20px;
+}
+
+.photo-profil{
+  background-color: grey;
+  border-radius: 300px;
+  height: 300px;
+  width: 300px;
+}
+
+.info{
+  display: flex;
+  width: 90%;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+.info-perso{
+  display: flex;
+  width: 100%;
+  color: white;
+}
+
+#section2{
+  width: 100%;
+  height: 650px;
+  background-color:#1d2120;
+  color: white;
+  justify-content: center;
+}
+
+h2{
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 20px;
+  font-variant: small-caps;
+  font-style: italic;
+}
+
+h1{
+  margin:20px;
+}
+
+#section3{
+width: 100%;
+height: 650px;
+background-color:#1d2120;
+color: white;
+justify-content: center;
+}
+
+#section4{
+width: 100%;
+height: 650px;
+background-color:#1d2120;
+color: white;
+justify-content: center;
+}
+
+#section5{
+width: 100%;
+height: 650px;
+background-color:#1d2120;
+color: white;
+justify-content: center;
+}
+
+#bannerEnd{
+  width: 100%;
+  height: 100px;
+  background-color:blue;
+}
+
+.barreVerticale{
+  display: block;
+  border: 2px solid #ba9077;
+  border-radius: 5px;
+  width: 98%;
+}
+
+#carres{
+display: inline-block;
+width: 100%;
+height:100%;
+}
+
+.carreDiplome{
+display: inline-block;
+width: 300px;
+height: 300px;
+background-color:#ba9077;
+margin-left: 220px;
+margin-top: 120px;
+}
+
+.carreYnov{
+display: inline-block;
+width: 300px;
+height: 300px;
+background-color:#ba9077;
+float: right;
+margin-right: 220px;
+margin-top: 120px;
+}
+
+.textecarre{
+  text-align: center;
+  color: black;
+  font-variant: small-caps;
+}
+
+
+button{
+width: 300px;
+height: 300px;
+background-color:#ba9077;
+}
+
+.buttonProman{
+display: inline-block;
+margin-left: 220px;
+margin-top: 120px;
+}
+
+.buttonAdecco{
+display: inline-block;
+float: right;
+margin-right: 220px;
+margin-top: 120px;
+}
+
+input{
+background-color:#ba9077;
+width: 200px;
+height: 30px;
+}
+
+fieldset{
+  width: 55%;
+  height: 80%;
+}
+
+label{
+  font-size: 20px;
+  display: inline-block;
+  padding: 30px 0px 0px 20px;
+}
+
+legend{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
