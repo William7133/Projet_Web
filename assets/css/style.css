@@ -94,6 +94,7 @@ h2{
   padding-left: 20px;
   font-variant: small-caps;
   font-style: italic;
+  font-weight: bold;
 }
 
 h1{
@@ -162,12 +163,11 @@ margin-right: 220px;
 margin-top: 120px;
 }
 
-.textecarre{
+.texteFormation{
   text-align: center;
   color: black;
   font-variant: small-caps;
 }
-
 
 button{
 width: 300px;
@@ -181,6 +181,19 @@ margin-left: 220px;
 margin-top: 120px;
 }
 
+.imgFactory{
+  position: relative;
+  bottom: 10px;
+}
+
+.texteExperience{
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  font-weight: lighter;
+  font-family: serif;
+}
+
 .buttonAdecco{
 display: inline-block;
 float: right;
@@ -188,8 +201,18 @@ margin-right: 220px;
 margin-top: 120px;
 }
 
+.imgAirplane{
+  position: relative;
+  bottom: 10px;
+}
+
 input{
-background-color:#ba9077;
+background-color:#ba9077;.buttonAdecco{
+display: inline-block;
+float: right;
+margin-right: 220px;
+margin-top: 120px;
+}
 width: 200px;
 height: 30px;
 }
@@ -211,3 +234,57 @@ legend{
   font-size: 18px;
 }
 
+.progress-bar{
+  width: 300px;
+  height: 24px;
+  padding: 4px;
+  background-color: #191919;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+  -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+  -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+
+.progress-bar:before {
+    content: 'Javascript';
+    text-align: center;
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 24px;
+    background: #999;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.progress-bar:after {
+    content: '|||||||||||||';
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    overflow: hidden;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    font: bold 120px/80px sans-serif;
+    letter-spacing: -6px;
+    color: #000;
+    opacity: 0.06;
+}
+
+.color:before {
+  background: #099;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#099), to(#006A6B));
+  background: -moz-linear-gradient(top, #099, #006A6B);
+}
