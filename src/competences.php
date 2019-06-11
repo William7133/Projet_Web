@@ -2,76 +2,70 @@
 <div id="section4">
     <h2>Compétences</h2>
     <hr class="barreVerticale">
-    <div class="content">
-    <div class="formation">
-      <h3>Infrastructures et réseaux</h3>
-      <p class="name">CCNA1</p>
-    <svg class="progress" width="70" height="70" viewBox="0 0 120 120">
-        <circle cx="60" cy="60" r="54" fill="none" stroke="#e6e6e6" stroke-width="12" />
-        <circle class="progress__value" cx="60" cy="60" r="54" fill="none" stroke="#f77a52" stroke-width="12" />
+            <div class="content" id="article2">
+          <div class="formation">
+              <p>Developpement Web</p>
+              <div class="matiere">
+                <p class="name">HTML</p>
+                <div class="logo">
+                <img src="assets/img/logoHtml.png" alt="">
+                </div>
+                <p class="name">CSS</p>
+                <div class="logo">
 
-    </svg>
-      <p class="name">Linux</p>
-    <svg class="progress" width="70" height="70" viewBox="0 0 120 120">
-        <circle cx="60" cy="60" r="54" fill="none" stroke="#e6e6e6" stroke-width="12" />
-        <circle class="progress__value" cx="60" cy="60" r="54" fill="none" stroke="#f77a52" stroke-width="12" />
-    </svg>
-    <p class="name">VirtualBox</p>
-    <svg class="progress" width="70" height="70" viewBox="0 0 120 120">
-        <circle cx="60" cy="60" r="54" fill="none" stroke="#e6e6e6" stroke-width="12" />
-        <circle class="progress__value" cx="60" cy="60" r="54" fill="none" stroke="#f77a52" stroke-width="12" />
-    </svg>
-    <p class="name">Windows server</p>
-    <svg class="progress" width="70" height="70" viewBox="0 0 120 120">
-        <circle cx="60" cy="60" r="54" fill="none" stroke="#e6e6e6" stroke-width="12" />
-        <circle class="progress__value" cx="60" cy="60" r="54" fill="none" stroke="#f77a52" stroke-width="12" />
-    </svg>
-  </div><div class="formation">
-    <h3>Développement logiciels</h3>
-    <p class="name">Python</p>
-    <svg class="progress" width="70" height="70" viewBox="0 0 120 120">
-        <circle cx="60" cy="60" r="54" fill="none" stroke="#e6e6e6" stroke-width="12" />
-        <circle class="progress__value" cx="60" cy="60" r="54" fill="none" stroke="#f77a52" stroke-width="12" />
-    </svg>
-    <p class="name">Objets connectés</p>
-    <svg class="progress" width="70" height="70" viewBox="0 0 120 120">
-        <circle cx="60" cy="60" r="54" fill="none" stroke="#e6e6e6" stroke-width="12" />
-        <circle class="progress__value" cx="60" cy="60" r="54" fill="none" stroke="#f77a52" stroke-width="12" />
-    </svg>
-    <p class="name">Langage C</p>
-    <svg class="progress" width="70" height="70" viewBox="0 0 120 120">
-        <circle cx="60" cy="60" r="54" fill="none" stroke="#e6e6e6" stroke-width="12" />
-        <circle class="progress__value" cx="60" cy="60" r="54" fill="none" stroke="#f77a52" stroke-width="12" />
-    </svg>
-    <p class="name">C#</p>
-    <svg class="progress" width="70" height="70" viewBox="0 0 120 120">
-        <circle cx="60" cy="60" r="54" fill="none" stroke="#e6e6e6" stroke-width="12" />
-        <circle class="progress__value" cx="60" cy="60" r="54" fill="none" stroke="#f77a52" stroke-width="12" />
-    </svg>
-  </div><div class="formation">
-    <h3>Développement web</h3>
-    <p class="name">HTML/CSS</p>
-    <svg class="progress" width="70" height="70" viewBox="0 0 120 120">
-        <circle cx="60" cy="60" r="54" fill="none" stroke="#e6e6e6" stroke-width="12" />
-        <circle class="progress__value" cx="60" cy="60" r="54" fill="none" stroke="#f77a52" stroke-width="12" />
-    </svg>
-    <p class="name">PHP</p>
-    <svg class="progress" width="70" height="70" viewBox="0 0 120 120">
-        <circle cx="60" cy="60" r="54" fill="none" stroke="#e6e6e6" stroke-width="12" />
-        <circle class="progress__value" cx="60" cy="60" r="54" fill="none" stroke="#f77a52" stroke-width="12" />
-    </svg>
-    <p class="name">JavaScript</p>
-    <svg class="progress" width="70" height="70" viewBox="0 0 120 120">
-        <circle cx="60" cy="60" r="54" fill="none" stroke="#e6e6e6" stroke-width="12" />
-        <circle class="progress__value" cx="60" cy="60" r="54" fill="none" stroke="#f77a52" stroke-width="12" />
-    </svg>
-    <p class="name">Référencement</p>
-    <svg class="progress" width="70" height="70" viewBox="0 0 120 120">
-        <circle cx="60" cy="60" r="54" fill="none" stroke="#e6e6e6" stroke-width="12" />
-        <circle class="progress__value" cx="60" cy="60" r="54" fill="none" stroke="#f77a52" stroke-width="12" />
-    </svg>
-  </div>
-  </div>
-</div>
+                </div>
+                <p class="name">Javascript</p>
+                <div class="logo">
+                <img src="assets/img/logoJs.png" alt="">
+                </div>
+                <p class="name">PHP</p>
+                <div class="logo">
+                <img src="assets/img/logoPhp.png" alt="">
+                </div>
+              </div>
+          </div>
+          <div class="formation">
+              <p>Developpement Logiciel</p>
+              <div class="matiere">
+                <p class="name">Arduino</p>
+                <div class="logo">
+                <img src="assets/img/logoArduino.png" alt="">
+                </div>
+                <p class="name">Python</p>
+                <div class="logo">
+                <img src="assets/img/logoPython.png" alt="">
+                </div>
+                <p class="name">C</p>
+                <div class="logo">
+                <img src="assets/img/logoC.png" alt="">
+                </div>
+                <p class="name">C sharp</p>
+                <div class="logo">
+                <img src="assets/img/logoC#.png" alt="">
+                </div>
+              </div>
+          </div>
+          <div class="formation">
+              <p>Infrastructure et Systeme d'Information</p>
+              <div class="matiere">
+                <p class="name">Cisco</p>
+                <div class="logo">
+                <img src="assets/img/logoCisco.png" alt="">
+                </div>
+                <p class="name">Windows</p>
+                <div class="logo">
+                <img src="assets/img/logoWindows.png" alt="">
+                </div>
+                <p class="name">Linux</p>
+                <div class="logo">
+                <img src="assets/img/logoLinux.png" alt="">
+                </div>
+                <p class="name">VMware</p>
+                <div class="logo">
+                <img src="assets/img/logoVM.png" alt="">
+                </div>
+              </div>
+          </div>
+        </div>
 </div>
 
