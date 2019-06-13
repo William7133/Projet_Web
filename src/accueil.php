@@ -4,6 +4,7 @@
           <h1>Bienvenue sur mon cv</h1>
       </div>
       <div class="photo-profil">
+        <img src="assets/img/photoCv.jpg" alt="" class="photoCv" align="center">
       </div>
       <div class="info">
         <ul class="info-perso">

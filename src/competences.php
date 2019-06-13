@@ -12,7 +12,7 @@
                 </div>
                 <p class="name">CSS</p>
                 <div class="logo">
-
+                <img src="assets/img/logoCss.png" alt="">
                 </div>
                 <p class="name">Javascript</p>
                 <div class="logo">
@@ -41,7 +41,7 @@
                 </div>
                 <p class="name">C sharp</p>
                 <div class="logo">
-                <img src="assets/img/logoC#.png" alt="">
+                <img src="assets/img/logoCsharp.png" alt="">
                 </div>
               </div>
           </div>
@@ -60,7 +60,7 @@
                 <div class="logo">
                 <img src="assets/img/logoLinux.png" alt="">
                 </div>
-                <p class="name">VMware</p>
+                <p class="name">Virtualisation</p>
                 <div class="logo">
                 <img src="assets/img/logoVM.png" alt="">
                 </div>
