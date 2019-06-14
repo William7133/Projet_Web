@@ -4,7 +4,7 @@
   <hr class="barreVerticale">
   <div id="carres">
     <div class="carreDiplome">
-      <p align="center"><img src="assets/img/diplome.png"></p>
+      <img src="assets/img/diplome.png" class="imgDiplome">
       <div class="texteFormation">
         <p>Bac STMG</p>
         <p>Lycée du Val de Saône</p>
@@ -12,8 +12,8 @@
         <p>2012/2016</p>
       </div>
     </div>
-    <div class="carreYnov">
-      <p align="center"><img src="assets/img/etudiant.png"></p>
+    <div class="carreDiplome">
+      <img src="assets/img/etudiant.png" class="imgYnov">
         <div class="texteFormation">
           <p>Bachelor Informatique</p>
           <p>Ynov Lyon Campus</p>
