@@ -47,11 +47,20 @@ ul{
   padding: 0;
   align-items: center;
   height: 100%;
+  font-family: serif;
+}
+
+li{
+  font-family: serif;
 }
 
 a{
   color: white;
   text-decoration: none;
+}
+
+p{
+  font-family: serif;
 }
 
 #section1{
@@ -72,16 +81,16 @@ a{
 
 .photo-profil{
   background-color:grey;
-  border-radius: 300px;
-  height: 300px;
-  width: 300px;
+  border-radius: 220px;
+  height: 220px;
+  width: 220px;
   text-align: center;
 }
 
 .photoCv{
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
+  width: 220px;
+  height: 220px;
 }
 .info{
   display: flex;
@@ -108,14 +117,17 @@ h2{
   text-align: left;
   padding-top: 30px;
   padding-left: 20px;
-  font-variant: small-caps;
   font-style: italic;
   font-weight: bold;
+  font-family: serif;
   color: white;
 }
 
 h1{
   margin:20px;
+  text-align: center;
+  font-family: serif;
+  font-weight: bold;
 }
 
 #section3{
@@ -202,7 +214,7 @@ width: 100%;
 .texteFormation{
   text-align: center;
   color: black;
-  font-variant: small-caps;
+  font-family: serif;
 }
 
 .content
@@ -347,88 +359,22 @@ button
   justify-content: center;
 }
 
-.absoluteCcna1{
-  position: absolute;
-  width: 30px;
-  top: 2240px;
-  font-size: 20px;
+.sport{
+  height: 100%;
+  width: 40%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-family: serif;
 }
 
-.absoluteLinux{
-  position: absolute;
-  width: 30px;
-  top: 2390px;
-  font-size: 20px;
-}
-
-.absoluteVirtual{
-  position: absolute;
-  width: 30px;
-  top: 2540px;
-  font-size: 20px;
-}
-
-.absoluteWindows{
-  position: absolute;
-  width: 30px;
-  top: 2690px;
-  font-size: 20px;
-}
-
-.absolutePython{
-  position: absolute;
-  width: 30px;
-  top: 2240px;
-  font-size: 20px;
-}
-
-.absoluteObjets{
-  position: absolute;
-  width: 30px;
-  top: 2390px;
-  font-size: 20px;
-}
-
-.absoluteC{
-  position: absolute;
-  width: 30px;
-  top: 2540px;
-  font-size: 20px;
-}
-
-.absoluteCsharp{
-  position: absolute;
-  width: 30px;
-  top: 2690px;
-  font-size: 20px;
-}
-
-.absoluteHtml{
-  position: absolute;
-  width: 30px;
-  top: 2240px;
-  font-size: 20px;
-}
-
-.absolutePhp{
-  position: absolute;
-  width: 30px;
-  top: 2390px;
-  font-size: 20px;
-}
-
-.absoluteJs{
-  position: absolute;
-  width: 30px;
-  top: 2540px;
-  font-size: 20px;
-}
-
-.absoluteRef{
-  position: absolute;
-  width: 30px;
-  top: 2690px;
-  font-size: 20px;
+.logoSport
+{
+  display: flex;
+  height: 80px;
+  width: 80px;
 }
 
 * {
@@ -452,7 +398,7 @@ body {
   content: '';
   position: absolute;
   width: 6px;
-  background-color: white;
+  background-color: purple;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -474,7 +420,7 @@ body {
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: white;
+  background-color: blue;
   border: 4px solid #FF9F55;
   top: 15px;
   border-radius: 50%;
@@ -500,9 +446,9 @@ body {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid white;
+  border: medium solid orange;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-color: transparent transparent transparent red;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -514,9 +460,9 @@ body {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid white;
+  border: medium solid green;
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent dimgrey transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -527,7 +473,7 @@ body {
 /* The actual content */
 .contentTimeline {
   padding: 20px 30px;
-  background-color: white;
+  background-color: #ba9077;
   position: relative;
   border-radius: 6px;
 }

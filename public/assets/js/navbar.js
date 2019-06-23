@@ -1,5 +1,5 @@
 var myNav;
-var myNavHeight = 640;
+var myNavHeight = 650;
 
 window.addEventListener("load", function(){
   myNav = document.querySelector('nav');

@@ -1,67 +1,62 @@
+<?php
+
+    $nom ="";
+    $prenom ="";
+    $mail ="";
+    $message = "";
+
+    if (!empty($_POST)) {
+      $nom = ($_POST["nom"]);
+      $prenom =($_POST["prenom"]);
+      $mail = ($_POST["mail"]);
+      $message = ($_POST["message"]);
+
+      $bdd = new PDO('mysql:host=localhost;dbname=portfolio;charset=utf8', 'root', '');
+
+      $statement = $bdd->prepare('
+        INSERT INTO formulaire (NOM, PRENOM, MAIL, TEXTE)
+        VALUES ("'.$nom.'", "'.$prenom.'", "'.$mail.'","'.$message.'");
+        ');
+      $statement->execute();
+    }
+
+    ?>
+
 <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
 <div id="section5">
   <h2>Centres d'intérêts et contact</h2>
   <hr class="barreVerticale">
   <div class="spaceTop">
   </div>
+  <div class="sport">
+    <img src="assets/img/handball.png" class="logoSport">
+    <p>Handball / 3ans</p>
+    <img src="assets/img/tennis.png" class="logoSport">
+    <p>Tennis / 3 ans</p>
+    <img src="assets/img/run.png" class="logoSport" text-align="center">
+    <p>Course à pied / Actuellement</p>
+    <img src="assets/img/computer.png" class="logoSport">
+    <p>Informatique / Jeux vidéos</p>
+  </div>
   <div class="spaceLeft">
   </div>
-  <form>
+  <form name="my_form" action="http://projetweb/#section1" method="POST">
   <div class="form">
-    <label for="name">Nom</label>
-    <input type="text" class="formName" placeholder="Nom">
-    <label for="firstName">Prénom</label>
-    <input type="text" class="formFirstName" placeholder="Prénom">
-    <label for="mail">Email</label>
-    <input type="email" class="formMail" placeholder="name@example.com">
+    <label for="name" name="nom">Nom</label>
+    <input type="text" class="formName" placeholder="Nom" name="nom">
+    <label for="firstName" name="prenom">Prénom</label>
+    <input type="text" class="formFirstName" placeholder="Prénom" name="prenom">
+    <label for="mail" name="mail">Email</label>
+    <input type="mail" class="formMail" placeholder="name@example.com" name="mail">
     </div>
     <div class="msg">
-    <label for="message">Message</label>
-    <textarea class="formMsg" rows="3" placeholder="Ecrivez votre message ici"></textarea>
+    <label for="message" name="message">Message</label>
+    <textarea class="formMsg" rows="3" placeholder="Ecrivez votre message ici" name="message"></textarea>
     </div>
     <div class="boutonFormulaire">
       <button type="submit">Envoyer</button>
+    </div>
 </form>
+</div>
 
-<?php
-// On commence par récupérer les champs
-if(isset($_POST['nom']))      $nom=$_POST['nom'];
-else      $nom="";
-
-if(isset($_POST['prenom']))      $prenom=$_POST['prenom'];
-else      $prenom="";
-
-if(isset($_POST['email']))      $email=$_POST['email'];
-else      $email="";
-
-if(isset($_POST['message']))      $icq=$_POST['message'];
-else      $message="";
-
-// On vérifie si les champs sont vides
-if(empty($nom) OR empty($prenom) OR empty($email) OR empty($message))
-    {
-    echo '<font color="red">Attention, seul le champs <b>ICQ</b> peut rester vide !</font>';
-    }
-
-// Aucun champ n'est vide, on peut enregistrer dans la table
-else
-    {
-       // connexion à la base
-$db = mysql_connect('http://localhost/phpmyadmin/db_structure.php?server=1&db=portfolio', 'root', '') or die('Erreur de connexion '.mysql_error());
-// sélection de la base
-
-    mysql_select_db('portfolio',$db) or die('Erreur de selection '.mysql_error());
-
-    // on écrit la requête sql
-    $sql = "INSERT INTO formulaire_portfolio (nom,prenom,email,message) VALUES('$nom','$prenom','$email','$message')";
-
-    // on insère les informations du formulaire dans la table
-    mysql_query($sql) or die('Erreur SQL !'.$sql.'<br>'.mysql_error());
-
-    // on affiche le résultat pour le visiteur
-    echo 'Vos infos on été ajoutées.';
-
-    mysql_close();  // on ferme la connexion
-    }
-?>
 

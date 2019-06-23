@@ -46,7 +46,7 @@
               </div>
           </div>
           <div class="formation">
-              <p>Infrastructure et Systeme d'Information</p>
+              <p>Infrastructure et Systeme Informations</p>
               <div class="matiere">
                 <p class="name">Cisco</p>
                 <div class="logo">
@@ -117,7 +117,7 @@ if(empty($competence1) OR empty($competence2) OR empty($competence3) OR empty($c
 else
     {
        // connexion à la base
-$db = mysql_connect('http://localhost/phpmyadmin/db_structure.php?server=1&db=portfolio', 'root', '') or die('Erreur de connexion '.mysql_error());
+$db = mysql_connect('localhost', 'root', '') or die('Erreur de connexion '.mysql_error());
 // sélection de la base
 
     mysql_select_db('portfolio',$db) or die('Erreur de selection '.mysql_error());
