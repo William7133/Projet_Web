@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
 <div id="section1">
       <div class="innerBanner">
-          <h1>Bienvenue sur mon cv</h1>
+          <h1>Bienvenue sur mon CV</h1>
       </div>
       <div class="photo-profil">
         <img src="assets/img/photoCv.jpg" alt="" class="photoCv" align="center">
