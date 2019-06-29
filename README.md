@@ -4,7 +4,7 @@
 
 Pour le Projet Web, nous devons créer un site web CV afin de nous aider pour notre future carrière professionnelle.
 
-Le site web CV devrai comprendre :
+Le site web CV doit comprendre :
 
 • Présentation simple : nom, prénom, photo, compétences clefs
 
