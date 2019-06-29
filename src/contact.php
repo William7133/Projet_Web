@@ -54,7 +54,7 @@
     <textarea class="formMsg" rows="3" placeholder="Ecrivez votre message ici" name="message"></textarea>
     </div>
     <div class="boutonFormulaire">
-      <button type="submit">Envoyer</button>
+      <button type="submit" class="buttonSubmit">Envoyer</button>
     </div>
 </form>
 </div>

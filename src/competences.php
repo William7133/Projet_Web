@@ -25,7 +25,7 @@
               </div>
           </div>
           <div class="formation">
-              <p>Developpement Logiciel</p>
+              <p>Developpement Logiciels</p>
               <div class="matiere">
                 <p class="name">Arduino</p>
                 <div class="logo">
@@ -35,7 +35,7 @@
                 <div class="logo">
                 <img src="assets/img/logoPython.png" alt="">
                 </div>
-                <p class="name">C</p>
+                <p class="name">Langage C</p>
                 <div class="logo">
                 <img src="assets/img/logoC.png" alt="">
                 </div>
@@ -46,7 +46,7 @@
               </div>
           </div>
           <div class="formation">
-              <p>Infrastructure et Systeme Informations</p>
+              <p>Infrastructures et Systemes Informations</p>
               <div class="matiere">
                 <p class="name">Cisco</p>
                 <div class="logo">
@@ -108,12 +108,8 @@ if(isset($_POST['competence12']))      $competence12=$_POST['competence12'];
 else      $competence12="";
 
 // On vérifie si les champs sont vides
-if(empty($competence1) OR empty($competence2) OR empty($competence3) OR empty($competence4) OR empty($competence5) OR empty($competence6) OR empty($competence7) OR empty($competence8) OR empty($competence9) OR empty($competence10) OR empty($competence11) OR empty($competence12))
-    {
-    echo '<font color="red">Attention, seul le champs <b>ICQ</b> peut rester vide !</font>';
-    }
+if(empty($competence1) OR empty($competence2) OR empty($competence3) OR empty($competence4) OR empty($competence5) OR empty($competence6) OR empty($competence7) OR empty($competence8) OR empty($competence9) OR empty($competence10) OR empty($competence11) OR empty($competence12));
 
-// Aucun champ n'est vide, on peut enregistrer dans la table
 else
     {
        // connexion à la base

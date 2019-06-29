@@ -1,42 +1,25 @@
 <?php
 
 session_start();
+$admin_mail = "william@gmail.com";
+$admin_password = "1234";
+$badinfo = false;
 
-function is_email_valid(string $email): bool
-{
-    $pattern = '/^[a-zA-Z0-9]+@[a-zA-Z0-9]+\..[a-zA-Z0-9]+$/';
-    if (preg_match($pattern, $email)) {
-      return true;
-    }
-
-    return  false;
-}
-
-// est-ce que j'ai un formulaire
-if (count($_POST) === 2) {
-  $adminEmail = "contact@gabrielpillet.com";
-  $adminPassword = '87d805d9f703896ce77c5afc2b2150ead8a5d4c3';
-
-  if (!is_email_valid($_POST['email'])) {
-    die('Email invalide.');
-  }
-
-  // est-ce que mes logins sont valides
-  if (
-    $adminEmail === $_POST['email']
-    && $adminPassword === sha1(md5('TOTO'.$_POST['password']))
+if(
+  count($_POST) == 2
+  && $_POST["password"] === $admin_password
+  && $_POST["mail"] === $admin_mail
   ) {
-    $_SESSION['is_logged_in'] = true;
-
-    header('Location: http://'.$_SERVER['HTTP_HOST'].'/Admin/index.php');
+    $_SESSION["isLogged"] = true;
+    header("Location: http://".$_SERVER["HTTP_HOST"]."/admin/accueilAdmin.php");
     exit();
-  } else if(isset($errorMessage)) {
-    $errorMessage = 'Mauvais indentifiant mec.';
+  } else {
+    if(isset($_POST["password"]) && $_POST["mail"]){
+      $badinfo = true;
+    }
   }
-}
-
 ?>
-<!doctype html>
+
 <html lang="en">
    <head>
       <meta charset="utf-8">
@@ -125,11 +108,11 @@ if (count($_POST) === 2) {
     }
       </style>
 
-      <form novalidate="novalidate" action="http://projetweb/admin/login.php" method="POST" class="form-signin">
+      <form novalidate="novalidate" action="" method="POST" class="form-signin">
         <img class="mb-4" src="img/bootstrap-solid.svg" alt="" width="72" height="72">
         <h1 class="h3 mb-3 font-weight-normal">Merci de vous identifier</h1>
         <label for="inputEmail" class="sr-only">Votre email</label>
-        <input name="email" type="email" id="inputEmail" class="form-control" placeholder="Votre adresse email" required autofocus>
+        <input name="mail" type="email" id="inputEmail" class="form-control" placeholder="Votre adresse email" required autofocus>
         <label for="inputPassword" class="sr-only">Votre mot de passe</label>
         <input name="password" type="password" id="inputPassword" class="form-control" placeholder="Votre mot de passe" required>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Se connecter</button>

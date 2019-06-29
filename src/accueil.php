@@ -11,7 +11,6 @@
           <li>William FERNANDES</li>
           <li>william.fernandes@ynov.com</li>
           <li>06.52.71.35.75</li>
-          <li>44 Rue du Cèdre Genay 69730</li>
           <li>Permis B</li>
         </ul>
       </div>
