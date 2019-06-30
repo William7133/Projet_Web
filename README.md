@@ -22,12 +22,17 @@ Dans la partie administrative, nous devons faire :
 - Gestion de votre parcours scolaire (diplômes, écoles, dates de scolarité, etc.)
 - Gestion de vos compétences clefs (par exemple : HTML (3/5), CSS (5/5), Javascript (2/5)
 - Gestion des rubriques libres (sports, loisirs, centres d'intérêts, etc.)
+
 • Gérer votre page Réalisations/Projets :
-- Gestion des réalisations/projets : Screenshot, technos utilisés, liens vers un dépôt GIT.
+
+- Gestion des réalisations/projets : Screenshot, technos utilisés, liens vers un dépôt GIT
+
 • Gérer la page de contact
+
 - Pouvoir changer les textes
 - Les messages envoyés doivent être pouvoir être stockés dans une base de données et consultés dans votre interface d’administration Lors de la réception d’un message, vous recevrez un mail
 Ce site web CV nous permettra de mettre à profit toutes les connaissances acquises lors de l’UF Technologies Web.
+
 # HTML/CSS
 J’ai réalisé mon portfolio principalement avec le langage HTML/CSS.
 Celui-ci contient quelques animations de boutons, une pour le formulaire de contact et l’autre pour mes expériences professionnelles.
