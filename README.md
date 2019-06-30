@@ -9,7 +9,9 @@ Compétences, rubriques libres
 • Page de contact permettant aux visiteurs de vous contacter par le biais d'un formulaire
 En plus de ceci, nous devons également créer une section administrative inspirée d'un lien qui est à disponibilité sur Moodle.
 Dans la partie administrative, nous devons faire :
+
 • Gérer votre page de présentation simple (ajout de photo, édition des textes en WYSIWYG)
+
 • Gérer votre page de présentation détaillée :
 - Gestion des expériences professionnelles (date de début/date de fin, titre, nom de l'organisme/entreprise, détails, etc.)
 - Gestion de votre parcours scolaire (diplômes, écoles, dates de scolarité, etc.)
