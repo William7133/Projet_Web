@@ -1,11 +1,16 @@
 # Projet-web
 # Projet Web Démarche
+
 Pour le Projet Web, nous devons créer un site web CV afin de nous aider pour notre future carrière professionnelle.
 Le site web CV doit comprendre :
+
 • Présentation simple : nom, prénom, photo, compétences clefs
+
 - Présentation détaillée (un CV numérique interactif) : expériences professionnelles,
 Compétences, rubriques libres
+
 • Réalisations/Projets
+
 • Page de contact permettant aux visiteurs de vous contacter par le biais d'un formulaire
 En plus de ceci, nous devons également créer une section administrative inspirée d'un lien qui est à disponibilité sur Moodle.
 Dans la partie administrative, nous devons faire :
