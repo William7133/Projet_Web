@@ -5,7 +5,7 @@
   <div class="content">
     <div class="buttonExperiences">
       <a href="./component/interim.php" class="lien_experiences">
-      <img src="assets/img/factory.png" class="imgFactory">
+      <img src="assets/img/factory.png" class="imgFactory" alt="logo usine">
         <div class="texteExperience">
           <p>PROMAN/ADECCO</p>
           <p>2017-2018</p>

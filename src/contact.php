@@ -20,6 +20,12 @@
       $statement->execute();
     }
 
+if (isset($_POST['mail']) && $_POST['mail'] != ''
+    && isset($_POST['nom']) && $_POST['nom'] != '')
+     {
+
+     }
+
     ?>
 
 <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
@@ -29,13 +35,13 @@
   <div class="spaceTop">
   </div>
   <div class="sport">
-    <img src="assets/img/handball.png" class="logoSport">
+    <img src="assets/img/handball.png" class="logoSport" alt="logo handball">
     <p>Handball / 3ans</p>
-    <img src="assets/img/tennis.png" class="logoSport">
+    <img src="assets/img/tennis.png" class="logoSport" alt="logo tennis">
     <p>Tennis / 3 ans</p>
-    <img src="assets/img/run.png" class="logoSport" text-align="center">
+    <img src="assets/img/run.png" class="logoSport" text-align="center" alt="logo running">
     <p>Course à pied / Actuellement</p>
-    <img src="assets/img/computer.png" class="logoSport">
+    <img src="assets/img/computer.png" class="logoSport" alt="logo ordinateur">
     <p>Informatique / Jeux vidéos</p>
   </div>
   <div class="spaceLeft">

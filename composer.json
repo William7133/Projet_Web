@@ -1,0 +1,7 @@
+{
+    "name": "william/projet_web",
+    "type": "project",
+    "require": {
+        "swiftmailer/swiftmailer": "^6.2"
+    }
+}
