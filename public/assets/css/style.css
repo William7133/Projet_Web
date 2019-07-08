@@ -188,10 +188,10 @@ width: 100%;
   background-size:cover;
   background-repeat: no-repeat;
   cursor: pointer;
-  -webkit-animation: pulse 3s infinite cubic-bezier(0.66, 0, 0, 1);
-  -moz-animation: pulse 3s infinite cubic-bezier(0.66, 0, 0, 1);
-  -ms-animation: pulse 3s infinite cubic-bezier(0.66, 0, 0, 1);
-  animation: pulse 3s infinite cubic-bezier(0.66, 0, 0, 1);
+  -webkit-animation: pulse 5s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 5s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 5s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 5s infinite cubic-bezier(0.66, 0, 0, 1);
 }
 .buttonSubmit:hover
 {

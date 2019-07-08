@@ -11,7 +11,7 @@ $transport = (new Swift_SmtpTransport('smtp.gmail.com', 465, 'ssl'))
 $mailer = new Swift_Mailer($transport);
 
 // Create a message
-$body = 'Hello, <p>Thanks for <span style="color:red;">Getting in touch with me</span>.</p><p> ';
+$body = 'Hello, <p>Thanks for <span style="color:#79F8F8;">Getting in touch with me</span>.</p><p> ';
 
 $message = (new Swift_Message('Entrer en contact'))
   ->setFrom(['wilgis6901@gmail.com' => 'William Fernandes'])
