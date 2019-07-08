@@ -58,4 +58,4 @@ Pour finir, je mettrais mon CV en ligne sur google quand celui-ci sera complète
 
 # Schéma Merise
 
-![Screenshot](Schéma_Merise.png) 
+![alt tag]
