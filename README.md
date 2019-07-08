@@ -58,4 +58,4 @@ Pour finir, je mettrais mon CV en ligne sur google quand celui-ci sera complète
 
 # Schéma Merise
 
-![alt tag]
+![alt tag](https://github.com/William7133/projet_web/blob/master/base_de_donn%C3%A9es/Sch%C3%A9ma%20Merise.png)
