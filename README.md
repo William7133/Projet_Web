@@ -58,4 +58,4 @@ Pour finir, je mettrais mon CV en ligne sur google quand celui-ci sera complète
 
 # Schéma Merise
 
-![alt text](C:\wamp64\www\projet_web\base_de_données)
+![alt text](C:\wamp64\www\projet_web\base_de_données\Schéma_Merise.png)
