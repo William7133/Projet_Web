@@ -187,22 +187,7 @@ CREATE TABLE IF NOT EXISTS `formulaire` (
 INSERT INTO `formulaire` (`ID`, `NOM`, `PRENOM`, `MAIL`, `TEXTE`) VALUES
 (198, 'william', 'fernandes', 'william.fernandes713@gmail.com', 'Bonjour, votre CV manque d\'animations'),
 (199, 'dfjgghj', 'gkgjkgjjgk', 'kgjgkk@khllhlkh', 'hklhkhkl'),
-(200, 'dfjgghj', 'gkgjkgjjgk', 'kgjgkk@khllhlkh', 'hklhkhkl'),
-(201, 'dfjgghj', 'gkgjkgjjgk', 'kgjgkk@khllhlkh', 'hklhkhkl'),
-(202, 'dfjgghj', 'gkgjkgjjgk', 'kgjgkk@khllhlkh', 'hklhkhkl'),
-(203, 'qdsfs', 'hjkhh', 'wilgis6901@gmail.com', 'ghgkgjk'),
-(204, 'qdsfs', 'hjkhh', 'wilgis6901@gmail.com', 'ghgkgjk'),
-(205, 'qdsfs', 'hjkhh', 'wilgis6901@gmail.com', 'ghgkgjk'),
-(206, 'qdsfs', 'hjkhh', 'wilgis6901@gmail.com', 'ghgkgjk'),
-(207, 'qdsfs', 'hjkhh', 'wilgis6901@gmail.com', 'ghgkgjk'),
-(208, 'qdsfs', 'hjkhh', 'wilgis6901@gmail.com', 'ghgkgjk'),
-(209, 'qdsfs', 'hjkhh', 'wilgis6901@gmail.com', 'ghgkgjk'),
-(210, 'qdsfs', 'hjkhh', 'wilgis6901@gmail.com', 'ghgkgjk'),
-(211, 'qdsfs', 'hjkhh', 'wilgis6901@gmail.com', 'ghgkgjk'),
-(212, 'qdsfs', 'hjkhh', 'wilgis6901@gmail.com', 'ghgkgjk'),
-(213, 'qdsfs', 'hjkhh', 'wilgis6901@gmail.com', 'ghgkgjk'),
-(214, 'qdsfs', 'hjkhh', 'wilgis6901@gmail.com', 'ghgkgjk'),
-(215, 'qdsfs', 'hjkhh', 'wilgis6901@gmail.com', 'ghgkgjk');
+
 
 -- --------------------------------------------------------
 
