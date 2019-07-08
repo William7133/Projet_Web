@@ -56,3 +56,6 @@ Pour le moment, mon CV contient très peu d’animations et le design pourrait �
 Ensuite, je vais me concentrer sur le référencement naturel afin d’optimiser au maximum mon portfolio.
 Pour finir, je mettrais mon CV en ligne sur google quand celui-ci sera complètement fini et optimisé.
 
+# Schéma Merise
+
+![]Schéma_Merise.png
