@@ -6,6 +6,8 @@
     <li><a href="#section2">Formation</a></li>
     <li><a href="#section3">Expériences Professionnelles</a></li>
     <li><a href="#section4">Compétences</a></li>
+    <li><a href="#sectionPresentation">Présentation</a></li>
+    <li><a href="#sectionArticle">Articles</a></li>
     <li><a href="#section5">Contact</a></li>
   </ul>
 </nav>
