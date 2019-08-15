@@ -187,6 +187,7 @@ CREATE TABLE IF NOT EXISTS `formulaire` (
 INSERT INTO `formulaire` (`ID`, `NOM`, `PRENOM`, `MAIL`, `TEXTE`) VALUES
 (198, 'william', 'fernandes', 'william.fernandes713@gmail.com', 'Bonjour, votre CV manque d\'animations'),
 (199, 'dfjgghj', 'gkgjkgjjgk', 'kgjgkk@khllhlkh', 'hklhkhkl'),
+<<<<<<< HEAD
 (200, 'dfjgghj', 'gkgjkgjjgk', 'kgjgkk@khllhlkh', 'hklhkhkl'),
 (201, 'dfjgghj', 'gkgjkgjjgk', 'kgjgkk@khllhlkh', 'hklhkhkl'),
 (202, 'dfjgghj', 'gkgjkgjjgk', 'kgjgkk@khllhlkh', 'hklhkhkl'),
@@ -203,6 +204,9 @@ INSERT INTO `formulaire` (`ID`, `NOM`, `PRENOM`, `MAIL`, `TEXTE`) VALUES
 (213, 'qdsfs', 'hjkhh', 'wilgis6901@gmail.com', 'ghgkgjk'),
 (214, 'qdsfs', 'hjkhh', 'wilgis6901@gmail.com', 'ghgkgjk'),
 (215, 'qdsfs', 'hjkhh', 'wilgis6901@gmail.com', 'ghgkgjk');
+=======
+
+>>>>>>> 026f99e407fc71db79ab90b6aba1affb22ac1cfe
 
 -- --------------------------------------------------------
 
