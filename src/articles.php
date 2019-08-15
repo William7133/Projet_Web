@@ -15,8 +15,20 @@ En conclusion, avec plusieurs expériences effectuées, je peux maintenant m'int
 <img src="assets/img/hands.png" alt="plusieurs mains" class="logoHands">
 <div class="spaceTop">
 </div>
+<p class="titreArticleWhite">Autonomie au travail</p>
+<p class="texteArticleBlack">Pour commencer, l'autonomie au travail dépend de chaque entreprise, c'est-à-dire que l'autonomie repose sur plusieurs facteurs comme par exemple le chef d'équipe, trop de pression, les contrôles tatillons, et encore pleins d'autres.</br>
+Plus de 75% des salariés disent être aidés par leurs collègues quand le travail est trop long ou trop délicat, ce pourcentage augmente chaque année en France.</br>
+Le besoin d’autonomie est l’un des déterminants essentiels pour préserver et développer les conditions du bien-être et de la santé au travail et il exerce des effets significatifs sur la performance.</br>
+Il n’y a pas d’autonomie sans responsabilités car la première suppose la volonté et la capacité d’adapter les règles et par conséquent, la personne autonome doit répondre de ses actes. En intégrant le concept de responsabilité, on peut distinguer trois stades de maîtrise dans l’autonomie :</br>
+D’abord la compétence car tout individu doit bien connaître et effectuer ses tâches, son travail pour prétendre acquérir son autonomie. </br>
+Ensuite la capacité à prendre de la distance, car l’autonomie est la capacité à se décaler des prescriptions, de s’affranchir des consignes, pour mobiliser ses propres ressources.</br>
+Et enfin l’initiative car l’autonomie nous amène à chercher à officialiser, à généraliser les ressources trouvées au stade précédent.</br>
+En conclusion, nous pouvons déduire que l'autonomie dépend énormément de la motivation des salariés ainsi que l'environnement de l'entreprise.</p>
+<img src="assets/img/travail.png" alt="plusieurs mains" class="logoTravail">
+<div class="spaceTop">
+</div>
 <p class="titreArticleBlack">Projets scolaire</p>
-<p class="texteArticleBlack">Tout au long de l'année scolaire, nous avons dû effectuer trois projets qui ont pour but d'améliorer nos compétences et plus particulièrement trois compétences précises, qui sont le développement logociel, le développement web et l'infrastructure et réseau.</br>
+<p class="texteArticleWhite">Tout au long de l'année scolaire, nous avons dû effectuer trois projets qui ont pour but d'améliorer nos compétences et plus particulièrement trois compétences précises, qui sont le développement logociel, le développement web et l'infrastructure et réseau.</br>
 Chaque projet a été réalisé dans un cadre scolaire et nous a fait comprendre certaines choses tout au long de l'année, à commencer par le stress subit par un projet.</br>
  Le projet web consistait à réaliser un portfolio. Nous devions coder nous même notre propre CV sans utiliser de templates préalablement trouvées sur internet, cela nous a donc forcés à apprendre toutes les bases du développement web et même plus.</br>
  Le projet logiciel consistait à crée une application en langage Python et Arduino.
@@ -27,7 +39,7 @@ Chaque projet a été réalisé dans un cadre scolaire et nous a fait comprendre
 <div class="spaceTop">
 </div>
 <p class="titreArticleWhite">Description du métier et compétences acquises au sein de l'entreprise MCTB</p>
-<p class="texteArticleWhite">Le carreleur intervient sur le chantier lorsque le gros-œuvre est terminé. Il s'occupe du revêtement des surfaces laissées brutes par le maçon. Il joue un rôle important dans la décoration et la finition.</br>
+<p class="texteArticleBlack">Le carreleur intervient sur le chantier lorsque le gros-œuvre est terminé. Il s'occupe du revêtement des surfaces laissées brutes par le maçon. Il joue un rôle important dans la décoration et la finition.</br>
 Seul ou en équipe, il travaille en intérieur dans tous types de locaux : maisons individuelles, immeubles collectifs, hôpitaux, laboratoires industriels ou piscines et en extérieur sur les façades, les dallages de jardins, les passages publics ou les décors urbains.</br>
  Il façonne et pose une grande diversité de matériaux : les grès émaillés ou cérames, les faïences, l'ardoise, les marbres, la terre cuite, les pâtes de verre, la lave émaillée.</br>
 Il doit être capable de réceptionner le support ou de l'améliorer (chape, mur…), d'utiliser des colles compatibles avec les supports, de respecter les caractéristiques requises des surfaces traitées (privé, public, sanitaire, handicap, joints de dilatation…) et de mettre en œuvre des éléments décoratifs en cuisine, salle de bain (…) requérant une connaissance des styles, adresse et soin (céramique, mosaïque…)</br>
